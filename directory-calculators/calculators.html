@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../assets/icon-startxub.png">
+    <link rel="stylesheet" href="../css/main.css">
+
+<!-- General Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Startup Calculators - StartXub</title>
+<meta name="description" content="Startup Calculators.">
+<meta name="author" content="StartXub">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://startxub.com/directory-calculators/calculators.html">
+
+<!-- Open Graph (OG) Meta Tags -->
+<meta property="og:title" content="Startup Calculators.">
+<meta property="og:description" content="Startup Calculators.">
+<meta property="og:image" content="assets/og-image.png">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:title" content="Startup Calculators.">
+<meta name="twitter:description" content="Startup Calculators.">
+<meta name="twitter:image" content="assets/og-image.png">
+
+<!-- X Card Meta Tags -->
+<meta name="x:title" content="Startup Calculators.">
+<meta name="x:description" content="Startup Calculators.">
+<meta name="x:image" content="assets/og-image.png">
+
+
+
+</head>
+
+<body>
+    <header>
+      <nav>
+            <a href="../index.html"><img alt="Logo" src="../assets/logo.png" height="70"></a>
+            <ul>
+                <li><a href="../directory-tools/tools.html">Tools</a></li>
+                <li><a href="../directory-list/directory.html">Directory</a></li>
+                <li><a href="calculators.html">Calculators</a></li>
+                <li><a href="../index.html#pricing">Pricing</a></li>
+                <li><a href="../index.html#faq">Faq</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main_msg">
+        <h1 class="big-heading">Calculators</h1>
+    </div>
+
+    <main>
+
+<!-- First Section -->
+
+<div class="button-container">
+    <button onclick="showCardsFirstSection('all')">All</button>
+    <button onclick="showCardsFirstSection('startup-c')">Startup</button>
+    <button onclick="showCardsFirstSection('finance')">Finance</button>
+</div>
+
+    <section id="tools">
+
+        <aside class="cards-first-section startup-c">
+            <a href="break-even-analysis-calculator.html">
+               <h3>Break Even</h3>
+          </a>
+           </aside>
+           <aside class="cards-first-section startup-c">
+            <a href="runway-calculator.html">
+               <h3>Runway</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section startup-c">
+            <a href="monthly-active-users-calculator.html">
+               <h3>Monthly Active Users</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section startup-c">
+            <a href="churn-rate-calculator.html">
+               <h3>Churn Rate</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section startup-c">
+            <a href="customer-acquisition-cost-calculator.html">
+               <h3>Customer Acquisition Cost</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section startup-c">
+            <a href="customer-lifetime-value-calculator.html">
+               <h3>Customer Lifetime Value</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section startup-c">
+            <a href="website-ad-revenue-calculator.html">
+               <h3>Website Ad Revenue</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section finance">
+            <a href="debt-to-equity-ratio-calculator.html">
+               <h3>Debt to Equity Ratio</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section finance">
+            <a href="cash-flow-to-debt-ratio-calculator.html">
+               <h3>Cash Flow to Debt Ratio</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section finance">
+            <a href="price-to-earnings-ratio-calculator.html">
+               <h3>Price to Earnings Ratio</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section finance">
+            <a href="gross-margin-calculator.html">
+               <h3>Gross Margin</h3>
+           </a>
+           </aside>
+           <aside class="cards-first-section finance">
+            <a href="return-on-investment-calculator.html">
+               <h3>Return on Investment</h3>
+           </a>
+           </aside>
+
+    </section>
+
+    <script>
+        // Show all cards in the first section by default when the page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            showCardsFirstSection('all');
+        });
+
+        function showCardsFirstSection(category) {
+            const cards = document.querySelectorAll('.cards-first-section');
+            cards.forEach(card => {
+                if (category === 'all' || card.classList.contains(category)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+
+    </main>
+
+    <footer class="footeri">
+
+        <p>
+            <small> © 2023 StartXub, LLC. </small>
+        </p>
+
+        <p>
+            <small> <a href="#">Contact info</a> | <a href="../policies.html#privacy-policy">Privacy Policy</a> | <a href="../policies.html#terms-of-use">Terms of Use</a> | <a href="../policies.html#gdpr">GDPR</a> </small>
+        </p>
+
+        <p>
+            <small>  <a href="../directory-tools/tools.html">Tools</a> | <a href="../directory-list/directory.html">Directory</a> | <a href="../directory-calculators/calculators.html">Calculators</a> | <a href="../index.html#pricing">Pricing</a> | <a href="../index.html#faq">Faq</a> </small>
+        </p>
+
+        <p>
+            <small> <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">LinkedIn</a> | <a href="#">X</a> </small>
+        </p>
+  </footer>
+</body>
+
+</html>
