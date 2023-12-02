@@ -696,10 +696,10 @@ nav ul li a {
 
 
 
-ul {
+ul.nonestyle {
     list-style: none;
   }
-  
+
 ul li.check:before {
     content: '✓ ';
   }
