@@ -709,4 +709,6 @@ ul li.uncheck:before {
     visibility: hidden;
   }
 
-
+.viscard {
+   visibility: hidden;
+}
