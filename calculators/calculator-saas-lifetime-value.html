@@ -11,33 +11,32 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5MG6QWTH');</script>
 <!-- End Google Tag Manager -->
-
+    
 <!-- General Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Website Ad Revenue Calculator - Startxub</title>
-<meta name="description" content="Calculate your website ad revenue with our easy-to-use online calculator.">
+<title>SaaS Lifetime Value - Startxub</title>
+<meta name="description" content="Calculate your saas lifetime value with our easy-to-use online calculator.">
 <meta name="author" content="Startxub">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://startxub.com/calculators/index.html">
 
 <!-- Open Graph (OG) Meta Tags -->
-<meta property="og:title" content="Website Ad Revenue Calculator - Startxub">
-<meta property="og:description" content="Calculate your website ad revenue with our easy-to-use online calculator.">
+<meta property="og:title" content="SaaS Lifetime Value - Startxub">
+<meta property="og:description" content="Calculate your saas lifetime value with our easy-to-use online calculator.">
 <meta property="og:image" content="assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <!-- Twitter Card Meta Tags -->
-<meta name="twitter:title" content="Website Ad Revenue Calculator - Startxub">
-<meta name="twitter:description" content="Calculate your website ad revenue with our easy-to-use online calculator.">
+<meta name="twitter:title" content="SaaS Lifetime Value - Startxub">
+<meta name="twitter:description" content="Calculate your saas lifetime value with our easy-to-use online calculator.">
 <meta name="twitter:image" content="assets/og-image.png">
 
 <!-- X Card Meta Tags -->
-<meta name="x:title" content="Website Ad Revenue Calculator - Startxub">
-<meta name="x:description" content="Calculate your website ad revenue with our easy-to-use online calculator.">
+<meta name="x:title" content="SaaS Lifetime Value - Startxub">
+<meta name="x:description" content="Calculate your saas lifetime value with our easy-to-use online calculator.">
 <meta name="x:image" content="assets/og-image.png">
-
 
 
 </head>
@@ -72,7 +71,7 @@
     </header>
 
     <div class="main_msg">
-        <h1 class="big-heading">Website Ad Revenue <br> Calculator</h1>
+        <h1 class="big-heading">Saas Lifetime Value<br> Calculator</h1>
         <p><a href="../calculators/index.html"><i>More Calculators</i></a></p>
     </div>
 
@@ -80,57 +79,70 @@
 
 <section class="bodys">
 
-     <div id="container">
+    <div id="container">
         <div id="guide">
             <h2>Step-by-Step Guide</h2>
             <ol>
-                <li>Enter the Website Traffic (number of visitors).</li>
-                <li>Enter the Click-Through Rate (CTR) as a percentage (e.g., 3% as 3).</li>
-                <li>Enter the Cost Per Click (CPC) in dollars.</li>
-                <li>Click the Calculate button to estimate ad revenue.</li>
+                <li>Enter the Average Revenue Per User (ARPU).</li>
+                <li>Enter the Gross Margin (as a percentage).</li>
+                <li>Enter the Churn Rate (as a percentage).</li>
+                <li>Click the Calculate button to determine the SaaS Lifetime Value (LTV).</li>
             </ol>
             <h2>Formula:</h2>
-            <p>Ad Revenue = (Website Traffic * CTR / 100) * CPC</p>
+            <p>SaaS LTV = (ARPU * Gross Margin) / Churn Rate</p>
         </div>
         <div id="calculatori">
-            <h2>Ad Revenue Calculator</h2>
-            <form id="ad-revenue-form">
-                <label for="website-traffic">Website Traffic:</label>
-                <input type="number" id="website-traffic" required><br>
+            <h2>SaaS Lifetime Value Calculator</h2>
+            <form id="saas-ltv-form">
+                <label for="arpu">Average Revenue Per User (ARPU):</label>
+                <input type="number" id="arpu" required><br>
 
-                <label for="ctr">Click-Through Rate (CTR) (%):</label>
-                <input type="number" id="ctr" required><br>
+                <label for="gross-margin">Gross Margin (%):</label>
+                <input type="number" id="gross-margin" required><br>
 
-                <label for="cpc">Cost Per Click (CPC) ($):</label>
-                <input type="number" id="cpc" required><br>
+                <label for="churn-rate">Churn Rate (%):</label>
+                <input type="number" id="churn-rate" required><br>
 
                 <button type="button" id="calculate-btn">Calculate</button>
             </form>
 
             <div id="results">
-                <h3>Estimated Ad Revenue:</h3>
-                <p>Ad Revenue: <span id="ad-revenue"></span></p>
+                <h3>SaaS Lifetime Value (LTV):</h3>
+                <p>SaaS LTV: <span id="saas-ltv"></span></p>
+                <p>Interpretation: <span id="interpretation"></span></p>
             </div>
         </div>
     </div>
 
-
-</section>
-
     <script>
-        document.getElementById('calculate-btn').addEventListener('click', calculateAdRevenue);
+        document.getElementById('calculate-btn').addEventListener('click', calculateSaasLTV);
 
-        function calculateAdRevenue() {
-            const websiteTraffic = parseFloat(document.getElementById('website-traffic').value);
-            const ctr = parseFloat(document.getElementById('ctr').value);
-            const cpc = parseFloat(document.getElementById('cpc').value);
+        function calculateSaasLTV() {
+            const arpu = parseFloat(document.getElementById('arpu').value);
+            const grossMargin = parseFloat(document.getElementById('gross-margin').value) / 100; // Convert percentage to decimal
+            const churnRate = parseFloat(document.getElementById('churn-rate').value) / 100; // Convert percentage to decimal
 
-            // Calculate Ad Revenue
-            const adRevenue = ((websiteTraffic * ctr / 100) * cpc).toFixed(2);
+            // Calculate SaaS Lifetime Value (LTV)
+            const saasLTV = (arpu * grossMargin) / churnRate;
 
-            document.getElementById('ad-revenue').textContent = `$${adRevenue}`;
+            // Interpretation of results
+            let interpretation = '';
+            if (!isNaN(saasLTV) && isFinite(saasLTV) && saasLTV > 0) {
+                interpretation = `The SaaS Lifetime Value (LTV) is approximately $${saasLTV.toFixed(2)}. This metric represents the expected revenue a SaaS company can generate from a customer before they churn.`;
+            } else {
+                interpretation = "Please ensure all inputs are valid and result in a positive value for SaaS Lifetime Value (LTV).";
+            }
+
+            document.getElementById('saas-ltv').textContent = isNaN(saasLTV) ? 'N/A' : `$${saasLTV.toFixed(2)}`;
+            document.getElementById('interpretation').textContent = interpretation;
         }
     </script>
+            
+ 
+
+
+
+         
 
     </main>
 
@@ -143,15 +155,16 @@
         <p>
             <small> <a href= "mailto: startxub@gmail.com">Contact info</a> | <a href="https://docs.google.com/document/d/1tuk5yQU2iWSuNS6s71AlD7EAeYrniHF-GF7QzNBxi6E/edit?usp=drive_link">Privacy Policy</a> | <a href="https://docs.google.com/document/d/1JCeviS153SUqNb8yuFnRfiIGYRPqXfetvSKrS686Et0/edit?usp=drive_link">Terms and Conditions</a> | <a href="https://docs.google.com/document/d/1CtLX7zD7M4tlIyakONhZAGseKjqp_HDoRxFBtcTD3gE/edit?usp=drive_link">Cookies Policy</a> | <a href="#open_preferences_center" id="open_preferences_center">Update Cookies</a> </small>
         </p>
-
+        
         <p>
             <small>  <a href="../articles/index.html">Articles</a> | <a href="../directory/index.html">Directory</a> | <a href="../calculators/index.html">Calculators</a> | <a href="../index.html#pricing">Pricing</a> | <a href="../index.html#faq">Faq</a> </small>
         </p>
 
 
-
+        
   </footer>
 
+  
 </body>
 
 </html>
