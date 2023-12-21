@@ -9,142 +9,217 @@
 
 <url>
   <loc>https://startxub.com/</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://startxub.com/directory/</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-product-market-fit</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-mvp</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-ideation</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-tam-sam-som</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-kpis</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-smart-goals</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-decision-matrix</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-eisenhower-matrix</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-the-5-whys-method</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-first-principles-thinking</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-second-order-thinking</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/articles/article-ray-dalio-5-step-process</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/articles/article-business-models</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/articles/article-how-fundraising-works</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/articles/article-how-to-evaluate-startup-ideas</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/articles/article-how-to-find-a-co-founder</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/articles/article-how-to-get-customers</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/articles/article-how-to-get-startup-ideas</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/articles/article-how-to-launch-a-startup</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-break-even-analysis</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-cash-flow-to-debt-ratio</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-churn-rate</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-customer-acquisition-cost</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-customer-lifetime-value</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-debt-to-equity-ratio</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-gross-margin</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-monthly-active-users</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-price-to-earnings-ratio</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-return-on-investment</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-runway</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://startxub.com/calculators/calculator-website-ad-revenue</loc>
-  <lastmod>2023-12-15T13:43:42+00:00</lastmod>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-burn-rate</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-cac-payback-period</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-ltv-to-cac-ratio</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-saas-lifetime-value</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-post-money-valuation</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-pre-money-valuation</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-growth-rate</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://startxub.com/calculators/calculator-market-capitalization</loc>
+  <lastmod>2023-12-21T17:08:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
