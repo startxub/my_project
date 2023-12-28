@@ -715,5 +715,15 @@ ul li.uncheck:before {
 
 
 
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the video */
+}
 
+/* Add this style to add some spacing around the videos */
+article {
+    margin-bottom: 20px;
+}
 
