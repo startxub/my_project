@@ -727,3 +727,46 @@ article {
     margin-bottom: 20px;
 }
 
+
+
+/*Responsive Start*/
+@media only screen and (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    .main_msg {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+
+    /* Adjust styles for screens with a maximum width of 768px */
+    #container {
+        margin: 0 5px; /* Adjust the margin for smaller screens */
+        display: flex;
+        flex-direction: column;
+    }
+
+    #guide,
+    #calculatori {
+        width: 100%;
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        padding: 10px; /* Add padding for better spacing inside the guide and calculatori sections */
+    }
+
+    .footeri {
+        display: none; /* Hide the footer on small screens */
+    }
+}
+
+/*Responsive End*/
+
+
+
+
