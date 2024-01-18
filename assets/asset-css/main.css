@@ -245,6 +245,8 @@ h6 {
 
 mark {
     padding: 0.1rem;
+    background-color: rgba(35, 131, 226, 0.1);
+    color: rgb(35, 131, 226)
 }
 
 ol li,
@@ -560,6 +562,10 @@ blockquote footer {
             margin: 10px;
         }
 
+        .big-heading1 {
+            font-size: 120px;
+        }
+
         .big-heading {
             font-size: 80px;
         }
@@ -593,6 +599,7 @@ blockquote footer {
   width: 80%;
   outline: none
 }
+
 
 /* scroll-to-top-arrow start*/
 /* styles.css */
@@ -734,7 +741,6 @@ article {
 
     nav {
         flex-direction: column;
-        align-items: flex-start;
     }
 
     ul {
@@ -763,10 +769,17 @@ article {
     .footeri {
         display: none; /* Hide the footer on small screens */
     }
+
+      .big-heading,
+      .big-heading1 {
+        font-size: 60px; /* Adjust the font size for smaller screens */
+      }
+
 }
 
 /*Responsive End*/
 
 
-
-
+.invisible-element {
+      visibility: hidden;
+    }
