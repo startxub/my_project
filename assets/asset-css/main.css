@@ -319,6 +319,7 @@ button.first-b {
     font-size: 20px;
 }
 
+
 button,
 input[type="submit"] {
     font-family: var(--font-family);
