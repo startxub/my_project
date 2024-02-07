@@ -792,3 +792,7 @@ article {
 .invisible-element {
       visibility: hidden;
     }
+
+.card-color {
+background: #EFEFEF;
+}
